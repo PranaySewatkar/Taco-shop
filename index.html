@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taco shop</title>
+  <meta rel="stylesheet" href="css/style.css">
+  <meta rel="icon" href="favicon.ico" type="imag/x-icon">
+</head><!-- All the content inside head will shown inside title bar-->
+
+<body><!-- All the content inside body will shown on browser-->
+  <header>
+  <h1>Welcome to The Little Taco Shop</h1>
+  <!--h1 is largest heading and h6 is the smallest heading-->
+
+  <ul>
+    <li> <a href= "About LTS">About LTS</a></li>
+    <li> <a href="index.html">Our Menu</a></li>
+    <li> <a href="hours.html" target="_blank"> Store Hours</a></li>
+    <li> <a href="Contact Us" target="_blank">Contact Us</a></li>
+  </ul>
+  <!--ul is unordered list and li list of items in unordered lists-->
+
+  <img src="img/tacos_and_drink_400x267.png" alt="taco and drink image">
+   <!-- img tag is used for showing images in html , where src means where we to take our image from,
+   here we take our image from img folder-->
+   <figure>
+   <figcaption>Tacos and a Drink</figcaption>
+   <!-- figcaption tells information about image-->
+  </figure>
+  </header>
+
+   <hr> <!--hr is used for horizontal line break-->
+    
+   <main>
+    <article id="about"></article>
+   <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+   <!--abbr provides tooltip-->
+  
+   <p><abbr title="Little Taco Shop">LTS</abbr> was founded in 1992. Our Shop was built from a <strong>love of Tacos</strong>🌮🌮🌮. We hope <br>
+    our shop adds a unique and interesting place to our town </p>
+   <!-- p tag is for paragraph-->
+
+   <h3>Taco Trivia</h3>
+   <aside>
+    <details>
+      <summary>When did tacos first appear in the United States?</summary>
+        <p>
+          The Taco was first introduced to the United States in <time datetime="1905">1905</time> Mexican migrants were coming in to work on railroads and other jobs and started to bring their delicious food with them. Tacos were essentially a street food at this time since they were highly portable and cheap.
+          (Source: <cite><a href="https://www.twistedtaco.com/the-history-of-the-taco#:~:text=Coming%20to%20America,were%20highly%20portable%20and%20cheap.">twistedtaco.com</a></cite>)
+      </p>
+    </details>
+   </aside>
+  </article>
+
+   <hr>
+
+   <article id="menu">
+   <h2>Our Menu</h2>
+    <table> 
+      <caption>Our Tacos</caption>
+        <thead>
+          <tr>
+        <th>Tacos</th>
+        <th><abbr title="Quantity">Qty</abbr></th>
+        <th> Price</th>
+        </tr>
+      </thead>
+      
+
+       <tbody>
+      <tr>
+        <th scope="row" rowspan="3">Crunchy </th>
+        <td>1</td>
+        <td>$1.50</td>
+      </tr>
+      
+         <tr>
+          <td>2</td>
+          <td>$2.50</td>
+         </tr>
+
+         <tr>
+          <td>3</td>
+          <td>$3.25</td>
+         </tr>
+      
+       
+       <tr>
+        <th scope="row" rowspan="3">Soft</th>
+        <td>1</td>
+        <td>$2.00</td>
+       </tr>
+       <tr>
+          <td>2</td>
+          <td>$3.50</td>
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>$4.50</td>
+       </tr>
+      </tbody>
+
+       <tfoot>
+        <tr>
+          <td colspan="3">
+          Chips and Salsa $2
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </article>
+    <!-- table tag is used to make tag
+        tr means table row
+        td means table data
+        th means table heading
+        thead means heading part of table
+        tbody means body part of table
+        tfoot means table footer
+        caption tells us what is table is about-->
+        <br>
+        <a href="#">Back to Top</a>
+      </article>
+    </main>
+
+    <!--# in (a href tag) is used to take us to the top of page -->
+        <hr>
+
+<footer>
+  <p>Copyright &copy; The Little Taco Shop</p>
+</footer>
+
+</body>
+
+
+</html>
